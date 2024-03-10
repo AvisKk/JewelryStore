@@ -18,8 +18,8 @@ const hash = md5(`Valantis_${timestamp}`)
 
 ///Общая составляющая запросов к API
 export const instance = axios.create({
+
+    ///cors anywhere необходим для http запроса с https домена
     baseURL: "https://cors-anywhere.herokuapp.com/http://api.valantis.store:40000/",
     headers: {"X-Auth": hash}
 })
-
-///
