@@ -1,0 +1,14 @@
+.search {
+    margin-top: 0.7em;
+    color: black;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    padding: 4px;
+    width: max-content;
+    transition: 0.2s;
+}
+
+.search:hover {
+    background-color: rgb(80, 80, 80);
+    color: whitesmoke
+}

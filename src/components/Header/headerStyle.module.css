@@ -1,0 +1,15 @@
+.header{
+    background-color: grey;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    z-index: 2;
+    height: 20vh;
+}
+
+.title{
+    margin-left: 3vh;
+    color: whitesmoke;
+    font-size: 15vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

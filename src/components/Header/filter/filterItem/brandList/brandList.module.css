@@ -1,0 +1,15 @@
+.item {
+    margin-top: 10px;
+    transition: 0.2s;
+}
+
+.item:hover {
+    color: grey;
+    background-color: whitesmoke;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.item:disabled {
+    color: grey
+}

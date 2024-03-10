@@ -1,0 +1,46 @@
+.card {
+    display: block;
+    height: 13em;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    position: relative;
+    transition: all 500ms ease; 
+}
+
+.card:hover {
+	background-color: rgba(170, 170, 170, 0.406);
+    color: rgb(126, 126, 126);
+    cursor: pointer;
+}
+
+.brand {
+    color: grey;
+    font-size: 2vh;
+    position: absolute;
+}
+
+.product {
+    position: absolute;
+    font-size: 3vh;
+    text-align: center;
+    padding: 1em;
+    top: 40%;
+    transform: translate(0, -50%)
+}
+
+.price {
+    position: absolute;
+    margin-top: 5%;
+    top: 60%;
+    right: 5%;
+}
+
+.id {
+    position:absolute;
+    text-align: center;
+    color: grey;
+    font-size: 2vh;
+    bottom: 5%;
+}
