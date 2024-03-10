@@ -1,7 +1,7 @@
 import { instance } from "./instance";
 import axiosRetry from "axios-retry";
 
-axiosRetry( instance, { retries: 3,
+axiosRetry( instance, { retries: 1,
   retryCondition: (_error) => true})
 
 export const filterAPI = {
